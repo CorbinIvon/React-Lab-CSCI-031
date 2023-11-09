@@ -1,4 +1,4 @@
-import { CodeBracketIcon } from '@heroiCons/react/24/solid';
+import { CodeBracketIcon } from '@heroicons/react/24/solid';
 
 export default function Navbar() {
   const anchorStyle =
