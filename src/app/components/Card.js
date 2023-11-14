@@ -28,7 +28,7 @@ export default function Card({
     <>
       <a href={url} className={hoverEffect}>
         <div className="bg-white shadow-md rounded-lg px-10 py-6 text-center">
-          <image src={img} alt={img} className="w-full" />
+          <img src={img} alt={img} className="w-full" />
           <h2 className="text-2xl font-semibold text-gray-800">{title}</h2>
           <p className="text-m font-bold text-gray-800">{content}</p>
           <div className="flex justify-center mt-4 flex-wrap">
