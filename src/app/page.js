@@ -18,8 +18,9 @@ export default async function Home() {
       <Title Title="Home" />
       <PageContent Content="Home page default content." />
       <div className="flex flex-wrap">
-        {Cards.map((card) => (
+        {Cards.map((card, idx) => (
           <Card
+            key={idx}
             title={card.title}
             content={card.content}
             img={card.image_url}
