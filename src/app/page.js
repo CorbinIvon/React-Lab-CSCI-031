@@ -5,7 +5,7 @@ import PageContent from '/src/app/components/PageContent';
 import Card from '/src/app/components/Card';
 import { createClient } from '@supabase/supabase-js';
 const supabaseUrl = 'https://anidbvxhgchtptfpozmt.supabase.co';
-const supabaseSecret = process.env.SUPABASE_SECRET;
+const supabaseSecret = process.env.SUPABASE_SERVICE_ROLE_KEY;
 const supabase = createClient(supabaseUrl, supabaseSecret);
 
 export default async function Home() {
