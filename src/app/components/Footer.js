@@ -14,7 +14,7 @@ export default function Footer() {
           ))}
         </div>
         <div className="flex justify-center">
-          <p className="text-2xl pt-5">&copy; Copyright 2024 | Corbin Meier | All Rights Reserved</p>
+          <p className="text-2xl py-5">&copy; Copyright 2024 | Corbin Meier | All Rights Reserved</p>
         </div>
       </div>
     </>
