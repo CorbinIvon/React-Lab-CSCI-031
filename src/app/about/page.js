@@ -9,6 +9,13 @@ export default function About() {
       <Navbar />
       <Title Title="About" />
       <PageContent Content="Default content for about." />
+      <p>
+        [Placeholder for{' '}
+        <a href="https://github.com/fullstackreact/google-maps-react" className="underline" target="_blank">
+          Map Location (WIP)
+        </a>
+        ]
+      </p>
       <Footer />
     </>
   );

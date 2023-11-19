@@ -16,6 +16,9 @@ export default function Footer() {
         <div className="flex justify-center">
           <p className="text-2xl py-5">&copy; Copyright 2024 | Corbin Meier | All Rights Reserved</p>
         </div>
+        <a href="https://www.npmjs.com/package/auth0" className="underline flex justify-center">
+          Admin Login (WIP)
+        </a>
       </div>
     </>
   );
