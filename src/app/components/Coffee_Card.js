@@ -15,11 +15,11 @@ export default function Card({
   );
   const tagsList = tags ? (
     <div className="flex justify-center mt-4 flex-wrap">
-      {/* {tags.map((tag) => (
+      {tags.map((tag) => (
         <span key={tag} className="text-sm text-gray-700 bg-gray-300 p-1 px-2 m-1 rounded-full">
           {tag}
         </span>
-      ))} */}
+      ))}
     </div>
   ) : (
     ''
