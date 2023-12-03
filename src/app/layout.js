@@ -5,6 +5,8 @@ import '@radix-ui/themes/styles.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
+export const revalidate = 0;
+
 export const metadata = {
   title: "Corbin's Next.js Site",
   description: "Site for Corbin's Next.js project",
