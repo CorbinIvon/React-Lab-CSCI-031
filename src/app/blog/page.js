@@ -11,7 +11,7 @@ export default function Blog() {
     <>
       <Navbar />
       <Title Title="Blog" />
-      <PageContent Content="Here lies my dreams and aspirations..." />
+      <PageContent Content="Here lies my dreams and aspirations... Click a card to view more content." />
       <RenderCards />
       <Footer />
     </>

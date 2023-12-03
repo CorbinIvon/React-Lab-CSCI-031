@@ -45,6 +45,17 @@ export default function About() {
               a more affordable option at Butte College.
             </p>
           </section>
+          <section>
+            <h1 className={pageHeaderStyle}>Graduation</h1>
+            <p className={pageParagraphStyle}>
+              I am expected to graduate from Butte College in the Fall of 2024 and am on track to graduate with an
+              associates in Computer Programming. More information can be found{' '}
+              <a className="underline" href="https://programs.butte.edu/ProgramInfo/10/2084" target="_blank">
+                here
+              </a>
+              .
+            </p>
+          </section>
         </div>
         <hr />
       </div>
