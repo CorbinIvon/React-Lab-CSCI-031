@@ -2,7 +2,8 @@ import Navbar from '/src/app/components/Navbar';
 import Title from '/src/app/components/PageTitle';
 import Footer from '/src/app/components/Footer';
 import PageContent from '/src/app/components/PageContent';
-import RenderCards from '/src/app/components/RenderCards';
+import RenderBlogCards from '/src/app/components/RenderBlogCards';
+import RenderBlogTable from '/src/app/components/RenderBlogTable';
 
 export default function Blog() {
   'use client';
@@ -12,7 +13,8 @@ export default function Blog() {
       <Navbar />
       <Title Title="Blog" />
       <PageContent Content="Here lies my dreams and aspirations... Click a card to view more content." />
-      <RenderCards />
+      <RenderBlogCards />
+      <RenderBlogTable />
       <Footer />
     </>
   );
