@@ -11,6 +11,7 @@
   "dependencies": {
     "@auth0/nextjs-auth0": "^3.3.0",
     "@heroicons/react": "^2.0.18",
+    "@leafygreen-ui/expandable-card": "^3.0.22",
     "@supabase/supabase-js": "^2.38.4",
     "auth0": "^4.1.0",
     "chart.js": "^4.4.0",

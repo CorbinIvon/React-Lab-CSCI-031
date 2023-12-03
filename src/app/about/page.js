@@ -48,14 +48,6 @@ export default function About() {
         </div>
         <hr />
       </div>
-
-      <p>
-        [Placeholder for{' '}
-        <a href="https://github.com/fullstackreact/google-maps-react" className="underline" target="_blank">
-          Map Location (WIP)
-        </a>
-        ]
-      </p>
       <Footer />
     </>
   );

@@ -8,7 +8,23 @@ export default function Contact() {
     <>
       <Navbar />
       <Title Title="Contact" />
-      <PageContent Content="Default content for contacting the page owner." />
+      <section>
+        <p>
+          You may contact me via email at{' '}
+          <a href="mailto:corbinivon@gmail.com" className="underline">
+            corbinivon@gmail.com
+          </a>
+          .
+        </p>
+        <p>I currently reside in Chico California.</p>
+        <p>
+          [Placeholder for{' '}
+          <a href="https://github.com/fullstackreact/google-maps-react" className="underline" target="_blank">
+            Map Location (WIP)
+          </a>
+          ]
+        </p>
+      </section>
       <Footer />
     </>
   );
