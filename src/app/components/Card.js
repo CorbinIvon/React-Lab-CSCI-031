@@ -1,8 +1,10 @@
+import Image from 'next/image';
+
 export default function Card({
   title = 'Placeholder Title',
   content = 'Placeholder Content',
-  img = 'https://via.placeholder.com/150',
-  url = 'https://placeholder.com',
+  img = '',
+  url = '',
   timestamp = '2021-07-20T19:20:30.45+01:00',
   tags = ['placeholder', 'tag'],
 }) {
@@ -28,7 +30,7 @@ export default function Card({
     <>
       <a href={url} className={hoverEffect}>
         <div className="bg-white shadow-md rounded-lg px-10 py-6 text-center">
-          <img src={img} alt={img} className="w-full" />
+          <Image src={img} alt={img} height={150} width={150} className="w-full" />
           <h2 className="text-2xl font-semibold text-gray-800">{title}</h2>
           <p className="text-m font-bold text-gray-800">{content}</p>
           <div className="flex justify-center mt-4 flex-wrap">
