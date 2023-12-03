@@ -1,5 +1,7 @@
 import { Inter } from 'next/font/google';
 import './globals.css';
+import { Theme, ThemePanel } from '@radix-ui/themes';
+import '@radix-ui/themes/styles.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -14,7 +16,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       {/* It was being weird and back ticks weren't working... */}
-      <body className={inter.className + ' bg-gradient-to-b ' + gradientFrom + ' to-black'}>{children}</body>
+      {/* <body className={inter.className + ' bg-gradient-to-b ' + gradientFrom + ' to-black'}> */}
+      <body>
+        <Theme appearance="dark" accentColor="purple" grayColor="slate" scaling="95%">
+          {/* <ThemePanel /> */}
+          <div className="flex flex-col min-h-screen">
+            <main className="flex-grow">{children}</main>
+          </div>
+        </Theme>
+      </body>
     </html>
   );
 }
