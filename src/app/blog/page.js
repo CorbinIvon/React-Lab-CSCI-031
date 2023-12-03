@@ -14,6 +14,7 @@ export default function Blog() {
       <Title Title="Blog" />
       <PageContent Content="Here lies my dreams and aspirations... Click a card to view more content." />
       <RenderBlogCards />
+      <h1 className="text-3xl font-bold text-center text-gray-500">Blog Entries</h1>
       <RenderBlogTable />
       <Footer />
     </>
