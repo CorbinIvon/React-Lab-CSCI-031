@@ -1,5 +1,6 @@
 import { CodeBracketIcon } from '@heroicons/react/24/solid';
 import navBarContent from '../data/navContentData';
+import { Flex, Text } from '@radix-ui/themes';
 
 export default function Navbar() {
   const anchorStyle =
@@ -7,18 +8,18 @@ export default function Navbar() {
   // Navbar should use a map operation to produce each anchor tag.
   return (
     <>
-      <div className="flex justify-between">
+      <Flex gap="3" justify="between">
         <div className="flex justify-start">
           <CodeBracketIcon className="h-12 w-12" />
         </div>
-        <div className="flex justify-end">
+        <Flex>
           {navBarContent.map((item, index) => (
             <a key={index} href={item.href} className={anchorStyle}>
-              {item.text}
+              <Text>{item.text}</Text>
             </a>
           ))}
-        </div>
-      </div>
+        </Flex>
+      </Flex>
       <hr />
     </>
   );
