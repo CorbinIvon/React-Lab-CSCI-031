@@ -15,7 +15,7 @@ export default async function RenderBlogTable() {
   if (error) console.log(error);
   return (
     <div className="p-4">
-      <Table.Root variant="surface">
+      <Table.Root variant="background">
         <Table.Header>
           <Table.Row>
             {Table_Keys.map((key_name, idx) => (
