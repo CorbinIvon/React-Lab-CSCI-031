@@ -11,8 +11,14 @@ export default function Blog() {
   return (
     <>
       <Navbar />
-      <Title Title="Blog" />
-      <PageContent Content="Here lies my dreams and aspirations... Click a card to view more content." />
+      <Title
+        Title="Blog"
+        BannerUrl="https://i.pinimg.com/originals/92/c1/2a/92c12ad4c4f3be78da8ccaa1d1481eda.png"
+        slug="Here lies my dreams and aspirations..."
+      />
+      <div className="flex justify-center">
+        <p>Click a card to view more content.</p>
+      </div>
       <RenderBlogCards />
       <h1 className="text-3xl font-bold text-center text-gray-500">Blog Entries</h1>
       <RenderBlogTable />
