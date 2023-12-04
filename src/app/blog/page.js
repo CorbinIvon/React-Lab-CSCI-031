@@ -1,7 +1,6 @@
 import Navbar from '/src/app/components/Navbar';
 import Title from '/src/app/components/PageTitle';
 import Footer from '/src/app/components/Footer';
-import PageContent from '/src/app/components/PageContent';
 import RenderBlogCards from '/src/app/components/RenderBlogCards';
 import RenderBlogTable from '/src/app/components/RenderBlogTable';
 
@@ -13,7 +12,7 @@ export default function Blog() {
       <Navbar />
       <Title
         Title="Blog"
-        BannerUrl="https://i.pinimg.com/originals/92/c1/2a/92c12ad4c4f3be78da8ccaa1d1481eda.png"
+        BannerUrl="https://i.pinimg.com/564x/f0/0a/9f/f00a9f08ecc375dd4f909836240aed70.jpg"
         slug="Here lies my dreams and aspirations..."
       />
       <div className="flex justify-center">
