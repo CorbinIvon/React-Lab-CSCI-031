@@ -1,8 +1,10 @@
+'use client';
 import Image from 'next/image';
 import Navbar from '/src/app/components/Navbar';
 import Title from '/src/app/components/PageTitle';
 import Footer from '/src/app/components/Footer';
-import PageContent from '/src/app/components/PageContent';
+import React from 'react';
+import GithubActivityCalendar from '/src/app/components/GitActivity';
 
 export default function About() {
   const pageHeaderStyle = 'text-2xl text-center p-2 italic';
@@ -12,6 +14,9 @@ export default function About() {
     <>
       <Navbar />
       <Title Title="About" BannerUrl="https://i.pinimg.com/originals/92/c1/2a/92c12ad4c4f3be78da8ccaa1d1481eda.png" />
+      <div className="flex justify-center">
+        <GithubActivityCalendar username="CorbinIvon" />
+      </div>
       <div className="flex justify-center place-items-center">
         <div className="flex-center sm:px-6 lg:px-16">
           <section>
