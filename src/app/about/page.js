@@ -21,7 +21,7 @@ export default function About() {
         <div className="flex-center sm:px-6 lg:px-16">
           <section>
             <div className="flex justify-center">
-              <Image src="/corbin.jpg" alt="Image of Corbin Meier" width={150} height={150} className="m-2" />
+              <Image src="/corbin.jpg" alt="Image of Corbin Meier" width={150} height={150} className="m-2 rounded" />
             </div>
             <h1 className={pageHeaderStyle}>Who am I?</h1>
             <p className={pageParagraphStyle}>
