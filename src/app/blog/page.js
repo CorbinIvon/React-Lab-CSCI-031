@@ -20,6 +20,11 @@ export default function Blog() {
       </div>
       <RenderBlogCards />
       <h1 className="text-3xl font-bold text-center text-gray-500">Blog Entries</h1>
+      <div className="text-center">
+        <a href="/blog/addCard" className="underline">
+          Add a new card.
+        </a>
+      </div>
       <RenderBlogTable />
       <Footer />
     </>
