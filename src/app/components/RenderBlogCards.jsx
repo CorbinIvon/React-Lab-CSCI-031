@@ -7,7 +7,7 @@ const supabase = createClient(supabaseUrl, supabaseSecret);
 
 export default async function RenderBlogCards() {
   const { data: Blog_Cards, error } = await supabase.from('Blog_Entries').select('*');
-  Blog_Cards.sort((a, b) => (a.id > b.id ? 1 : -1));
+  Blog_Cards.sort((a, b) => (a.id < b.id ? 1 : -1));
   if (error) console.log(error);
   return (
     <div className="flex flex-wrap justify-center">
