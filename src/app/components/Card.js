@@ -52,24 +52,26 @@ export default function Card({
           id={cardKey}
           onClick={toggleContentVisibility}
         >
-          <div className="absolute inset-0 lg:m-12 sm:m-12 p-4 bg-slate-700 rounded-2xl" id={cardKey}>
-            <div className="relative inset-0 flex flex-col lg:flex-row sm:flex-row rounded-2xl">
-              <div className="flex flex-col w-full lg:w-1/2 sm:w-1/2">
-                <div className="flex flex-col justify-center items-center lg:items-start sm:items-start">
-                  <h1 className="text-5xl font-bold text-white mb-8">{title}</h1>
-                  {timestampDisplay}
-                  <p className="text-xl font-semibold text-white mb-8">{contentShort}</p>
-                  <div className="flex flex-row justify-center lg:justify-start sm:justify-start">
-                    <div className="flex flex-row items-center">
-                      <div className="flex flex-col justify-center items-center">
-                        <p className="text-sm font-semibold text-white">{contentLong}</p>
+          <div className="flex justify-center items-center min-h-screen lg:my-10">
+            <div className="relative inset-0 p-4 bg-slate-700 rounded-2xl lg:w-1/2 lg:m-0 m-2" id={cardKey}>
+              <div className="relative inset-0 flex flex-col lg:flex-row sm:flex-row rounded-2xl">
+                <div className="flex flex-col lg:w-1/2 md:w-1/2">
+                  <div className="flex flex-col justify-center items-center">
+                    <h1 className="text-5xl font-bold text-white mb-8 text-center">{title}</h1>
+                    {timestampDisplay}
+                    <p className="text-xl font-semibold text-white mb-8">{contentShort}</p>
+                    <div className="flex flex-row justify-center lg:justify-start sm:justify-start">
+                      <div className="flex flex-row items-center">
+                        <div className="flex flex-col justify-center items-center">
+                          <p className="text-sm text-white">{contentLong}</p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="flex flex-col w-full lg:w-1/2 sm:w-1/2">
-                <img src={coverImageUrl} alt={coverImageUrl} className="w-full h-full object-cover rounded-2xl" />
+                <div className="flex flex-col w-1/2">
+                  <img src={coverImageUrl} alt={coverImageUrl} className="rounded-md" />
+                </div>
               </div>
             </div>
           </div>
