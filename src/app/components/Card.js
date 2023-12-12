@@ -37,7 +37,7 @@ export default function Card({
           <Flex direction="column" justify="between" height="100%">
             <div>
               {publishTimeDisplay}
-              <img src={coverImageUrl} alt={coverImageUrl} height={150} width={150} className="w-full" />
+              <img src={coverImageUrl} alt={coverImageUrl} className="w-64 h-64 object-cover rounded-lg" />
             </div>
             <div>
               <h2 className="text-2xl font-semibold text-gray-600">{title}</h2>
