@@ -9,7 +9,10 @@ export default function Directory() {
   return (
     <>
       <Navbar />
-      <Title Title="Directory" />
+      <Title
+        Title="Directory"
+        BannerUrl="https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      />
       <PageContent Content="A collection of links I use for my online presence mapped in one place." />
       <h1 className="text-5xl text-center">Social</h1>
       <div className={tableClassName}>
