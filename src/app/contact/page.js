@@ -1,7 +1,6 @@
 import Navbar from '/src/app/components/Navbar';
 import Title from '/src/app/components/PageTitle';
 import Footer from '/src/app/components/Footer';
-import PageContent from '/src/app/components/PageContent';
 import Maps from '/src/app/components/Maps';
 
 export default function Contact() {

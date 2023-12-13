@@ -1,28 +1,20 @@
-'use client';
-import React from 'react';
-import GoogleMapReact from 'google-map-react';
-
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
-
+import { Client } from '@googlemaps/google-maps-services-js';
+// const { Client } = require('@googlemaps/google-maps-services-js');
 export default function Maps() {
-  const defaultProps = {
-    center: {
-      lat: 10.99835602,
-      lng: 77.01502627,
-    },
-    zoom: 11,
-  };
-
-  return (
-    // Important! Always set the container height explicitly
-    <div style={{ height: '100vh', width: '100%' }}>
-      <GoogleMapReact
-        bootstrapURLKeys={{ key: process.env.GOOGLE_MAPS_API_KEY }}
-        defaultCenter={defaultProps.center}
-        defaultZoom={defaultProps.zoom}
-      >
-        <AnyReactComponent lat={39.72849114772089} lng={-121.83748730932051} text="Chico, CA" />
-      </GoogleMapReact>
-    </div>
-  );
+  const client = new Client({});
+  client
+    .elevation({
+      params: {
+        locations: [{ lat: 45, lng: -110 }],
+        key: process.env.GOOGLE_MAPS_API_KEY,
+      },
+      timeout: 1000, // milliseconds
+    })
+    .then((r) => {
+      console.log(r.data.results[0].elevation);
+    })
+    .catch((e) => {
+      console.log(e.response.data.error_message);
+    });
+  console.log(process.env.GOOGLE_MAPS_API_KEY);
 }

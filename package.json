@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@auth0/nextjs-auth0": "^3.3.0",
+    "@googlemaps/google-maps-services-js": "^3.3.42",
     "@heroicons/react": "^2.0.18",
     "@leafygreen-ui/expandable-card": "^3.0.22",
     "@radix-ui/themes": "^2.0.1",
@@ -26,6 +27,7 @@
     "react-github-calendar": "^4.0.7"
   },
   "devDependencies": {
+    "@types/google.maps": "^3.54.10",
     "autoprefixer": "^10",
     "eslint": "^8",
     "eslint-config-next": "13.5.6",
