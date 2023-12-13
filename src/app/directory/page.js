@@ -45,7 +45,7 @@ export default function Directory() {
                   facebook.com/corbin.meier
                 </a>
               </Table.Cell>
-              <Table.Cell>I'm never online here...</Table.Cell>
+              <Table.Cell>I&apos;m never online here...</Table.Cell>
               <Table.Cell>
                 <Checkbox defaultChecked disabled />
               </Table.Cell>
@@ -69,7 +69,7 @@ export default function Directory() {
                   discord.gg/U6TpQdq9sn
                 </a>
               </Table.Cell>
-              <Table.Cell>I'm here all the time.</Table.Cell>
+              <Table.Cell>I&apos;m here all the time.</Table.Cell>
               <Table.Cell>
                 <Checkbox defaultChecked disabled />
               </Table.Cell>
