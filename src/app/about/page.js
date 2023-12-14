@@ -123,12 +123,12 @@ export default function About() {
             <iframe
               width="560"
               height="315"
-              src="https://youtu.be/NWLv9XCM3fs?si=CUN-aszDRgf2-Uiq"
-              title="Treasure Planet, the movie"
+              src="https://www.youtube.com/embed/NWLv9XCM3fs?si=fL6INMmRYKWulQ_k"
+              title="Treasure Planet Trailer"
               frameborder="0"
-              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
-            ></iframe>
+            ></iframe>{' '}
             <p className={pageParagraphStyle}>
               When I saw this movie when I was younger, I believe it set me on the path of Sci-Fi and the like. This
               movie is so unique and has such a good story. I just wish there was more content similar to this show.
