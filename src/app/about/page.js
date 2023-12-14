@@ -18,20 +18,19 @@ export default function About() {
         Title="About"
         BannerUrl="https://images.unsplash.com/photo-1594729095022-e2f6d2eece9c?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       />
+      <div className="flex justify-center">
+        <GithubActivityCalendar username="CorbinIvon" />
+      </div>
+      <p className="text-center text-xl">
+        <a href="https://github.com/CorbinIvon" target="_blank" className="underline">
+          github.com/CorbinIvon
+        </a>
+      </p>
+
       <div className="flex items-center justify-center">
         <div className={contentWrapper}>
-          <p className="text-center text-xl">
-            <a href="https://github.com/CorbinIvon" target="_blank" className="underline">
-              github.com/CorbinIvon
-            </a>
-          </p>
-          <div className="flex justify-center">
-            <GithubActivityCalendar username="CorbinIvon" />
-          </div>
           <br />
-          <div className="flex items-center justify-center flex-col">
-            <hr className="w-5/6 " />
-          </div>
+          <div className="flex items-center justify-center flex-col"></div>
           <section className="flex flex-col items-center">
             <div className="flex justify-center">
               <Image src="/corbin.jpg" alt="Image of Corbin Meier" width={150} height={150} className="m-2 rounded" />
