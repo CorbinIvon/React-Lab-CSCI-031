@@ -95,8 +95,8 @@ export default function Directory() {
                 <Table.Row>
                   <Table.Cell>This site</Table.Cell>
                   <Table.Cell>
-                    <a href="https://react-lab-csci-031.corbinmeier.net/directory" className="underline">
-                      react-lab-csci-031.corbinmeier.net
+                    <a href="https://corbinmeier.net/directory" className="underline">
+                      corbinmeier.net
                     </a>
                   </Table.Cell>
                   <Table.Cell>This site. It was created for my CSCI 031 - Intro into Web Dev class.</Table.Cell>
