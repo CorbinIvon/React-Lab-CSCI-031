@@ -4,23 +4,23 @@ import Footer from '/src/app/components/Footer';
 import Maps from '/src/app/components/Maps';
 
 export default function Contact() {
-  const contentWrapper = 'flex flex-col bg-slate-800/[.4] rounded-xl lg:w-2/5 w-auto p-2 m-2';
+  const contentWrapper = 'flex-center bg-slate-800/[.4] lg:rounded-xl lg:w-2/5 lg:p-2 lg:m-2 w-full';
   return (
     <>
       <Navbar />
+      <Title
+        Title="Contact"
+        BannerUrl="https://images.unsplash.com/photo-1534224039826-c7a0eda0e6b3?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      />
       <div className="flex justify-center place-items-center">
         <div className={contentWrapper}>
-          <Title
-            Title="Contact"
-            BannerUrl="https://images.unsplash.com/photo-1534224039826-c7a0eda0e6b3?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          />
           <section className="flex flex-col justify-center place-items-center">
-            <p>
+            <p className="text-center">
               You may contact me via email at{' '}
-              <a href="mailto:corbinivon@gmail.com" className="underline">
-                corbinivon@gmail.com
+              <a href="mailto:cmeier002@student.butte.edu" className="underline">
+                cmeier002@student.butte.edu
               </a>
-              .
+              . This is my Butte student email. I will be checking it regularly.
             </p>
             <p>I currently reside in Chico California.</p>
             <Maps />

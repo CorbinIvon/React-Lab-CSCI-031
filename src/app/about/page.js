@@ -9,7 +9,7 @@ import GithubActivityCalendar from '/src/app/components/GitActivity';
 export default function About() {
   const pageHeaderStyle = 'text-2xl text-center p-2 italic';
   const pageParagraphStyle = 'text-center p-4';
-  const contentWrapper = 'flex-center bg-slate-800/[.4] rounded-xl w-2/5 p-2 m-2';
+  const contentWrapper = 'flex-center bg-slate-800/[.4] lg:rounded-xl lg:w-2/5 lg:p-2 lg:m-2 w-full';
   return (
     <>
       <Navbar />
@@ -17,7 +17,7 @@ export default function About() {
         Title="About"
         BannerUrl="https://images.unsplash.com/photo-1594729095022-e2f6d2eece9c?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       />
-      <div className="flex justify-center place-items-center">
+      <div className="flex items-center justify-center">
         <div className={contentWrapper}>
           <div className="flex justify-center">
             <GithubActivityCalendar username="CorbinIvon" />

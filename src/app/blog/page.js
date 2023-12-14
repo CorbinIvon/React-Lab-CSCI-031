@@ -12,7 +12,7 @@ export default function Blog() {
       <Navbar />
       <Title
         Title="Blog"
-        BannerUrl="https://i.pinimg.com/564x/f0/0a/9f/f00a9f08ecc375dd4f909836240aed70.jpg"
+        BannerUrl="https://images.unsplash.com/photo-1533279443086-d1c19a186416?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         slug="Here lies my dreams and aspirations..."
       />
       <div className="flex justify-center">

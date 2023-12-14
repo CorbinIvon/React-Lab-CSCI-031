@@ -6,13 +6,13 @@ import { Quote } from '@radix-ui/themes';
 export default async function Home() {
   const pageHeaderStyle = 'text-2xl text-center p-2 italic';
   const pageParagraphStyle = 'text-center p-4';
-  const contentWrapper = 'flex-center bg-slate-800/[.4] rounded-xl w-2/5 p-2 m-2';
+  const contentWrapper = 'flex-center bg-slate-800/[.4] lg:rounded-xl lg:w-2/5 lg:p-2 lg:m-2 w-full';
 
   return (
     <>
       <Navbar />
       <Title
-        Title="About"
+        Title="Home"
         BannerUrl="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       />
       <div className="flex justify-center place-items-center">

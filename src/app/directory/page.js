@@ -6,7 +6,7 @@ import { Table, Checkbox } from '@radix-ui/themes';
 
 export default function Directory() {
   const tableClassName = 'w-full';
-  const contentWrapper = 'flex-center bg-slate-800/[.4] rounded-xl w-2/5 p-2 m-2';
+  const contentWrapper = 'flex-center bg-slate-800/[.4] lg:rounded-xl lg:w-2/5 lg:p-2 lg:m-2 w-full';
   return (
     <>
       <Navbar />
