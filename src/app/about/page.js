@@ -124,7 +124,7 @@ export default function About() {
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/Kp3PEn772a4?si=Jhspf5_N4Fo9spQY"
+              src="https://youtu.be/NWLv9XCM3fs?si=CUN-aszDRgf2-Uiq"
               title="Treasure Planet, the movie"
               frameborder="0"
               allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
