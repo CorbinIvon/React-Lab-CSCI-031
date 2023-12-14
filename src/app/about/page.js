@@ -5,6 +5,7 @@ import Title from '/src/app/components/PageTitle';
 import Footer from '/src/app/components/Footer';
 import React from 'react';
 import GithubActivityCalendar from '/src/app/components/GitActivity';
+import Spotify from '/src/app/components/Spotify';
 
 export default function About() {
   const pageHeaderStyle = 'text-2xl text-center p-2 italic';
@@ -105,6 +106,22 @@ export default function About() {
               When I saw this movie when I was younger, I believe it set me on the path of Sci-Fi and the like. This
               movie is so unique and has such a good story. I just wish there was more content similar to this show.
             </p>
+          </section>
+          <section className="flex flex-col items-center">
+            <h1 className={pageHeaderStyle}>Favorite Music</h1>
+            <p className={pageParagraphStyle}>
+              I don&apos;t have a particular favorite song, but here&apos;s a few from my favorites. <br />
+              Thanks, and enjoy!
+            </p>
+            <Spotify src="0eCyLXuQvl6P09iymEGTXS" />
+            <Spotify src="5jqCYVWYZ1B21VesZgvi6T" />
+            <Spotify src="3spdoTYpuCpmq19tuD0bOe" />
+            <Spotify src="6YffUZJ2R06kyxyK6onezL" />
+            <Spotify src="1Pwh4vY5YfOc4tWYzUdOYK" />
+            <Spotify src="09tYMZ38sfZRZmrN0basVJ" />
+            <Spotify src="6W9o5DzZtPIyoJe6Jnaowf" />
+            <Spotify src="5xLoX9ayGLlGfA7y32wfO9" />
+            <Spotify src="4lz6RS1fxcfNBG8QYzE2ty" />
           </section>
         </div>
         <hr />
