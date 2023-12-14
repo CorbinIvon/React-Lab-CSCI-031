@@ -92,8 +92,8 @@ export default function About() {
           <section className="flex flex-col items-center">
             <h1 className={pageHeaderStyle}>Favorite Clip</h1>
             <p className={pageParagraphStyle}>
-              Here are a few things I'd like to share. Chances are that if you also like these, then we will get along
-              well.
+              Here are a few things I&apos;d like to share. Chances are that if you also like these, then we will get
+              along well.
             </p>
             <iframe
               width="560"

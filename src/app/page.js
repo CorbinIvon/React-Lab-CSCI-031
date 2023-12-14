@@ -30,7 +30,7 @@ export default async function Home() {
           <section>
             <h1 className={pageHeaderStyle}>Finding Creative Solutions For Complex Problems</h1>
             <p className={pageParagraphStyle}>
-              Any time there's a task, I believe that it can be optimized and automated. If there&#39;s a digital
+              Any time there&apos;s a task, I believe that it can be optimized and automated. If there&#39;s a digital
               problem, I believe there to be a digital solution.
             </p>
           </section>
