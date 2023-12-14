@@ -9,17 +9,20 @@ import GithubActivityCalendar from '/src/app/components/GitActivity';
 export default function About() {
   const pageHeaderStyle = 'text-2xl text-center p-2 italic';
   const pageParagraphStyle = 'text-center p-4';
-
+  const contentWrapper = 'flex-center bg-slate-800/[.4] rounded-xl w-2/5 p-2 m-2';
   return (
     <>
       <Navbar />
-      <Title Title="About" BannerUrl="https://i.pinimg.com/originals/92/c1/2a/92c12ad4c4f3be78da8ccaa1d1481eda.png" />
-      <div className="flex justify-center">
-        <GithubActivityCalendar username="CorbinIvon" />
-      </div>
+      <Title
+        Title="About"
+        BannerUrl="https://images.unsplash.com/photo-1594729095022-e2f6d2eece9c?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      />
       <div className="flex justify-center place-items-center">
-        <div className="flex-center sm:px-6 lg:px-16">
-          <section>
+        <div className={contentWrapper}>
+          <div className="flex justify-center">
+            <GithubActivityCalendar username="CorbinIvon" />
+          </div>
+          <section className="flex flex-col items-center">
             <div className="flex justify-center">
               <Image src="/corbin.jpg" alt="Image of Corbin Meier" width={150} height={150} className="m-2 rounded" />
             </div>
@@ -33,7 +36,7 @@ export default function About() {
               love to learn new things. I am a hard worker and I am always looking for ways to improve myself.
             </p>
           </section>
-          <section>
+          <section className="flex flex-col items-center">
             <h1 className={pageHeaderStyle}>What do I do?</h1>
             <p className={pageParagraphStyle}>
               I am a full stack developer. I have experience with HTML, CSS, JavaScript, React, Node.js, SQL, Python,
@@ -41,7 +44,7 @@ export default function About() {
               Through work experience, I have learned all about DNS queries and how to use them to get a site online.
             </p>
           </section>
-          <section>
+          <section className="flex flex-col items-center">
             <h1 className={pageHeaderStyle}>Education</h1>
             <p className={pageParagraphStyle}>
               I am currently enrolled at Butte College in Oroville, California. I am pursuing my associates degree in
@@ -50,7 +53,7 @@ export default function About() {
               a more affordable option at Butte College.
             </p>
           </section>
-          <section>
+          <section className="flex flex-col items-center">
             <h1 className={pageHeaderStyle}>Graduation</h1>
             <p className={pageParagraphStyle}>
               I am expected to graduate from Butte College in the Fall of 2024 and am on track to graduate with an
@@ -59,6 +62,48 @@ export default function About() {
                 here
               </a>
               .
+            </p>
+          </section>
+          <section className="flex flex-col items-center">
+            <h1 className={pageHeaderStyle}>Favorite Clip</h1>
+            <p className={pageParagraphStyle}>
+              Here are a few things I'd like to share. Chances are that if you also like these, then we will get along
+              well.
+            </p>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/lOVpQeB07DQ?si=nOx_8FwYDxjX0a2O"
+              title="Ixion, first jump"
+              frameborder="0"
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <p className={pageParagraphStyle + ' pb-0'}>Ixion - First Jump.</p>
+            <p className={pageParagraphStyle}>
+              In this clip, I really like how the developers encapsulated the warping of space and time. The soundtrack
+              also adds to the experience pushing this scene above and beyond! Watch the intro scenes on{' '}
+              <a href="https://www.youtube.com/watch?v=PC5zT_NR7o4" target="_blank" className="underline">
+                YouTube
+              </a>
+              . It paints a really good picture of what the game is about!
+            </p>
+          </section>
+          <section className="flex flex-col items-center">
+            <h1 className={pageHeaderStyle}>Favorite Movie</h1>
+            <p className={pageParagraphStyle}>Hands down, it&apos;s got to be Treasure Planet.</p>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/Kp3PEn772a4?si=YI7jLYjwEVKM4zt7"
+              title="Treasure Planet, the movie"
+              frameborder="0"
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <p className={pageParagraphStyle}>
+              When I saw this movie when I was younger, I believe it set me on the path of Sci-Fi and the like. This
+              movie is so unique and has such a good story. I just wish there was more content similar to this show.
             </p>
           </section>
         </div>

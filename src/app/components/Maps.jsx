@@ -7,6 +7,7 @@ export default function Maps() {
       allowfullscreen=""
       loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"
+      className="rounded-lg shadow-xl"
     ></iframe>
   );
 }
