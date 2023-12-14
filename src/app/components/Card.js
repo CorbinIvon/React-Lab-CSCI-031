@@ -40,8 +40,9 @@ export default function Card({
               <img src={coverImageUrl} alt={coverImageUrl} className="w-64 h-64 object-cover rounded-lg" />
             </div>
             <div>
-              <h2 className="text-2xl font-semibold text-gray-600">{title}</h2>
-              <p className="text-m font-bold text-gray-600">{contentShort}</p>
+              <h2 className="CardComponent-title text-2xl font-semibold text-gray-600">{title}</h2>
+              <p className="CardComponent-contentShort text-m font-bold text-gray-600">{contentShort}</p>
+              <p className="CardComponent-contentLong hidden">{contentLong}</p>
             </div>
           </Flex>
         </div>

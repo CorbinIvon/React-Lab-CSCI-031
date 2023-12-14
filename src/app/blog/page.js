@@ -3,6 +3,7 @@ import Title from '/src/app/components/PageTitle';
 import Footer from '/src/app/components/Footer';
 import RenderBlogCards from '/src/app/components/RenderBlogCards';
 import RenderBlogTable from '/src/app/components/RenderBlogTable';
+import MySearchBar from '../components/MySearchBar';
 
 export default function Blog() {
   'use client';
@@ -18,6 +19,7 @@ export default function Blog() {
       <div className="flex justify-center">
         <p>Click a card to view more content.</p>
       </div>
+      <MySearchBar />
       <RenderBlogCards />
       <h1 className="text-3xl font-bold text-center text-gray-500">Blog Entries</h1>
       <div className="text-center">
