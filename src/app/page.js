@@ -23,6 +23,10 @@ export default async function Home() {
             </Quote>
             <br />- Corbin Meier
           </section>
+          <div className="flex items-center justify-center flex-col">
+            <hr className="w-5/6 " />
+          </div>
+
           <section>
             <h1 className={pageHeaderStyle}>Finding Creative Solutions For Complex Problems</h1>
             <p className={pageParagraphStyle}>
@@ -30,6 +34,9 @@ export default async function Home() {
               problem, I believe there to be a digital solution.
             </p>
           </section>
+          <div className="flex items-center justify-center flex-col">
+            <hr className="w-5/6 " />
+          </div>
 
           <section>
             <h1 className={pageHeaderStyle}>About This Site</h1>

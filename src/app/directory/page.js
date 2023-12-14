@@ -12,7 +12,7 @@ export default function Directory() {
       <Navbar />
       <Title
         Title="Directory"
-        BannerUrl="https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        BannerUrl="https://images.unsplash.com/photo-1484199316358-d7acb93729f2?q=80&w=2695&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       />
       <div className="flex justify-center place-items-center">
         <div className={contentWrapper}>

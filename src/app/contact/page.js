@@ -25,6 +25,10 @@ export default function Contact() {
             <p>I currently reside in Chico California.</p>
             <Maps />
           </section>
+          <div className="flex items-center justify-center flex-col py-1">
+            <hr className="w-5/6 " />
+          </div>
+
           <section>
             <p className="text-center text-xs text-slate-400">
               You can also use your local tractor beam to send your consciousness to{' '}

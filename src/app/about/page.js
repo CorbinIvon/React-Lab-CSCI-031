@@ -20,8 +20,17 @@ export default function About() {
       />
       <div className="flex items-center justify-center">
         <div className={contentWrapper}>
+          <p className="text-center text-xl">
+            <a href="https://github.com/CorbinIvon" target="_blank" className="underline">
+              github.com/CorbinIvon
+            </a>
+          </p>
           <div className="flex justify-center">
             <GithubActivityCalendar username="CorbinIvon" />
+          </div>
+          <br />
+          <div className="flex items-center justify-center flex-col">
+            <hr className="w-5/6 " />
           </div>
           <section className="flex flex-col items-center">
             <div className="flex justify-center">
@@ -37,6 +46,9 @@ export default function About() {
               love to learn new things. I am a hard worker and I am always looking for ways to improve myself.
             </p>
           </section>
+          <div className="flex items-center justify-center flex-col">
+            <hr className="w-5/6 " />
+          </div>
           <section className="flex flex-col items-center">
             <h1 className={pageHeaderStyle}>What do I do?</h1>
             <p className={pageParagraphStyle}>
@@ -45,6 +57,10 @@ export default function About() {
               Through work experience, I have learned all about DNS queries and how to use them to get a site online.
             </p>
           </section>
+          <div className="flex items-center justify-center flex-col">
+            <hr className="w-5/6 " />
+          </div>
+
           <section className="flex flex-col items-center">
             <h1 className={pageHeaderStyle}>Education</h1>
             <p className={pageParagraphStyle}>
@@ -54,6 +70,10 @@ export default function About() {
               a more affordable option at Butte College.
             </p>
           </section>
+          <div className="flex items-center justify-center flex-col">
+            <hr className="w-5/6 " />
+          </div>
+
           <section className="flex flex-col items-center">
             <h1 className={pageHeaderStyle}>Graduation</h1>
             <p className={pageParagraphStyle}>
@@ -65,6 +85,10 @@ export default function About() {
               .
             </p>
           </section>
+          <div className="flex items-center justify-center flex-col">
+            <hr className="w-5/6 " />
+          </div>
+
           <section className="flex flex-col items-center">
             <h1 className={pageHeaderStyle}>Favorite Clip</h1>
             <p className={pageParagraphStyle}>
@@ -90,6 +114,10 @@ export default function About() {
               . It paints a really good picture of what the game is about!
             </p>
           </section>
+          <div className="flex items-center justify-center flex-col">
+            <hr className="w-5/6 " />
+          </div>
+
           <section className="flex flex-col items-center">
             <h1 className={pageHeaderStyle}>Favorite Movie</h1>
             <p className={pageParagraphStyle}>Hands down, it&apos;s got to be Treasure Planet.</p>
@@ -107,6 +135,10 @@ export default function About() {
               movie is so unique and has such a good story. I just wish there was more content similar to this show.
             </p>
           </section>
+          <div className="flex items-center justify-center flex-col">
+            <hr className="w-5/6 " />
+          </div>
+
           <section className="flex flex-col items-center">
             <h1 className={pageHeaderStyle}>Favorite Music</h1>
             <p className={pageParagraphStyle}>
